@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header img {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul a {
+    text-decoration: none;
+}
+
+header nav ul a li {
+    margin: 0 16px;
+    list-style: none;
+    color: black;
+}
+
+section {
+    padding: 32px 128px;
+    background-image: url(../img/pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+section a {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+section li {
+    margin: 8px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+section #article-list {
+    margin: 16px;
+}
+
+section #article-list div {
+    padding: 16px 32px;
+    margin: 8px;
+    background-color: white;
+}
+
+section .card-container {
+    padding: 16px 128px;
+    background-color: white;
+}
+
+section .card-container .content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+section .card-container .content-container label {
+    margin-bottom: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+section .card-container .content-container input, textarea {
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+section #back-index {
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+section #card-spacer {
+    height: 16px;
+}
+
+footer {
+    width: 100%;
+    padding: 0.1px 0;
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
